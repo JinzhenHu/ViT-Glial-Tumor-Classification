@@ -4,7 +4,7 @@ This repository implements a Vision Transformer (ViT) model for classifying hist
 
 ## 🧠 Dataset
 - Custom dataset with JPG images grouped by tumor type.
-- Balanced sampling: Up to 6000 samples per class.
+- For efficient training, a **balanced subset of 18,000 images** (6,000 per class) was selected for fine-tuning.
 
 ## 🧠 Model
 - Pretrained Vision Transformer from [Kaiko AI](https://huggingface.co/1aurent/vit_base_patch16_224.kaiko_ai_towards_large_pathology_fms).
