@@ -3,7 +3,7 @@
 This repository implements a Vision Transformer (ViT) model for classifying histopathological images of glial tumors into three major categories: Glioblastoma (GBM), Astrocytoma (Astros), and Oligodendroglioma (Oligos) at **Diamandis Lab**. The pipeline includes dataset preparation, balanced sampling, model fine-tuning, training/validation with Weights & Biases logging, and evaluation with confusion matrix visualization.
 
 ## 🧠 Dataset
-- Custom dataset with JPG images grouped by tumor type.
+- Histology images organized into folders by tumor type: `GBM`, `Astros`, and `Oligos`.
 - For efficient training, a **balanced subset of 18,000 images** (6,000 per class) was selected for fine-tuning.
 
 ## 🧠 Model
