@@ -17,6 +17,7 @@ This repository implements a Vision Transformer (ViT) model for classifying hist
 - Training includes W&B logging and model checkpointing.
 - Early stopping is used to avoid overfitting.
 
+---
 
 ## 📊 Results
 
@@ -24,6 +25,15 @@ The model achieved **strong classification performance**:
 
 - ✅ **Best Validation Accuracy**: **94.92%** (Epoch 2)  
 - 🧪 **Final Test Accuracy**: **94.64%**
+
+### 📈 Training Summary
+
+```text
+Epoch 1: Train Loss=0.2780, Train Acc=89.70%, Val Loss=0.1461, Val Acc=94.75%
+Epoch 2: Train Loss=0.1255, Train Acc=95.54%, Val Loss=0.1464, Val Acc=94.92%
+Epoch 3: Train Loss=0.0878, Train Acc=96.97%, Val Loss=0.1793, Val Acc=93.94%
+Epoch 4: Train Loss=0.0585, Train Acc=98.17%, Val Loss=0.1644, Val Acc=94.33%
+Epoch 5: Train Loss=0.0424, Train Acc=98.49%, Val Loss=0.1857, Val Acc=94.83%
 
 
 ## 📦 Requirements
@@ -45,10 +55,3 @@ python train.py
 python test.py
 
 
-### 📈 Training Summary
-```text
-Epoch 1: Train Loss=0.2780, Train Acc=89.70%, Val Loss=0.1461, Val Acc=94.75%
-Epoch 2: Train Loss=0.1255, Train Acc=95.54%, Val Loss=0.1464, Val Acc=94.92%
-Epoch 3: Train Loss=0.0878, Train Acc=96.97%, Val Loss=0.1793, Val Acc=93.94%
-Epoch 4: Train Loss=0.0585, Train Acc=98.17%, Val Loss=0.1644, Val Acc=94.33%
-Epoch 5: Train Loss=0.0424, Train Acc=98.49%, Val Loss=0.1857, Val Acc=94.83%
